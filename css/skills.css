@@ -13,12 +13,13 @@
 .skills-list {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
   justify-content: center;
 }
 
 .skills-skill {
+  width: 60px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   padding: 20px;
@@ -41,6 +42,7 @@
   }
 
   .skills-skill {
+    width: 90px;
     margin: 20px;
   }
 
