@@ -61,6 +61,8 @@
   opacity: 0.6;
   transition: all 400ms;
   max-width: 470px;
+  width: 300px;
+  height: 480px;
 }
 
 .project-img img:hover {
