@@ -73,6 +73,12 @@
   transform: scale(1.02);
 }
 
+.catalogo-img {
+  margin-top: 25px;
+  height: 410px;
+  width: 250px;
+}
+
 @media (min-width:950px) {
 
   .projects-title {
